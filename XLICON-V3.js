@@ -194,26 +194,26 @@ function formatAfkDuration(ms) {
   return parts.join(", ");
 }
 //time
-const xtime = moment.tz("Asia/Karachi").format("HH:mm:ss");
-const xdate = moment.tz("Asia/Karachi").format("DD/MM/YYYY");
-const time2 = moment().tz("Asia/Karachi").format("HH:mm:ss");
+const xtime = moment.tz("Asia/Kolkata").format("HH:mm:ss");
+const xdate = moment.tz("Asia/Kolkata").format("DD/MM/YYYY");
+const time2 = moment().tz("Asia/Kolkata").format("HH:mm:ss");
 if (time2 < "23:59:00") {
-  var xeonytimewisher = `Good Night 🌌`;
+  var xeonytimewisher = `Good Night Nigger 🌌`;
 }
 if (time2 < "19:00:00") {
-  var xeonytimewisher = `Good Evening 🌃`;
+  var xeonytimewisher = `Good Evening Motherfucker🌃`;
 }
 if (time2 < "18:00:00") {
-  var xeonytimewisher = `Good Evening 🌃`;
+  var xeonytimewisher = `Good Evening Gay Ass 🌃`;
 }
 if (time2 < "15:00:00") {
-  var xeonytimewisher = `Good Afternoon 🌅`;
+  var xeonytimewisher = `Good Afternoon Bitch🌅`;
 }
 if (time2 < "11:00:00") {
-  var xeonytimewisher = `Good Morning 🌄`;
+  var xeonytimewisher = `Good Morning Lets Play Minecraft🌄`;
 }
 if (time2 < "05:00:00") {
-  var xeonytimewisher = `Good Morning 🌄`;
+  var xeonytimewisher = `Good Morning Lets Play Minecraft🌄`;
 }
 //function
 const reSize = async (buffer, ukur1, ukur2) => {
@@ -423,7 +423,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
                 title: botname,
                 body: ownername,
                 previewType: "PHOTO",
-                thumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                thumbnail: fs.readFileSync("https://i.postimg.cc/15dbYwqX/images-3.jpg"),
                 sourceUrl: wagc,
               },
             },
